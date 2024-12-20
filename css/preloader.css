@@ -61,5 +61,5 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: #e53e29;
+    background: rgba(var(--main-color-rgb), 1);
 }
