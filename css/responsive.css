@@ -278,10 +278,6 @@
 		display: block;
 	}
 	
-	.main-slider .slide{
-		padding:120px 0px 120px;
-	}
-	
 	.main-slider .scroll-box,
 	.main-header .outer-box{
 		display:none;
@@ -289,10 +285,6 @@
 	
 	.main-slider .active .image-layer{
 		transform:scale(1,1);
-	}
-	
-	.main-slider .slide{
-		padding:80px 0px;
 	}
 	
 	.main-header .logo-box{
@@ -575,9 +567,6 @@
 	
 }
 
-@media only screen and (max-width: 900px){
-	
-}
 
 @media only screen and (max-width: 767px){
 	
@@ -627,10 +616,6 @@
 	.main-header .nav-outer .mobile-nav-toggler{
 		display:block;
 		z-index:99;
-	}
-	
-	.main-slider h1 br{
-		display:none;
 	}
 	
 	.testimonial-block .text{
@@ -949,6 +934,9 @@
 	.shop-page-section .items-sorting .results-column .result{
 		margin-bottom:var(--margin-bottom-10);
 	}
+	.info-box a {		
+		font-size: var(--font-18);		
+	}
 	
 }
 
@@ -987,7 +975,7 @@
 	
 	.info-box a{
 		display:inline-block;
-		font-size: var(--font-22);
+		font-size: var(--font-16);
 		margin-top:var(--margin-top-20);
 	}
 	
@@ -1200,6 +1188,25 @@
 	
 	.error-section .inner-section h6{
 		text-transform:capitalize;
+	}
+	
+	.info-box .box-inner {
+		display: block;	
+	}
+	
+	.info-box .box-inner span:last-child {
+	  display: flex;
+	  flex-direction: column;
+	}
+	.info-box .box-inner span a {
+	  margin-top: 5px;
+	}
+	
+	.info-box.mail{
+		margin-top: 15px;
+	}
+	.main-slider .slide{
+		padding: 0;
 	}
 	
 }
