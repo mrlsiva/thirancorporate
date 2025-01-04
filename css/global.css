@@ -76,9 +76,11 @@
 
 :root {
 	
-	/* #fa4529 in decimal RGB */
+	/* #0091f7 in decimal RGB */
   --main-color: rgb(250,69,41);
   --main-color-rgb:250,69,41;
+  
+  --main-overlay-color: rgb(204, 234, 255);
   
   /* #1B1A1A in decimal RGB */
   --color-two: rgb(27,26,26);
@@ -1062,6 +1064,7 @@ img{
 	text-transform: uppercase;
 	background-color:var(--color-two);
 	font-family: var(--font-family-Archivo);
+	border: 1px solid var(--color-two);
 }
 
 .btn-style-one:before{
@@ -1130,6 +1133,7 @@ img{
 
 .btn-style-one:hover{
 	color: var(--color-fourtyone);
+	border: 1px solid var(--color-two);
 }
 
 .btn-style-one:hover:before{
@@ -1793,7 +1797,7 @@ img{
 	color: var(--white-color);
 	font-size: var(--font-16);
 	text-transform: capitalize;
-	background-color:var(--color-thirtyfive);
+	background-color:var(--main-color);
 	font-family:var(--font-family-Nunito);
 }
 

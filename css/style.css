@@ -267,6 +267,16 @@
 	color:var(--main-color);
 }
 
+li.dropdown .careet {
+	font-size: 10px;	
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.section-bg2{
+	background-color: rgba(245, 245, 245, 0.5);
+}
+
 /*** 
 
 ====================================================================
@@ -591,7 +601,7 @@
 
 .information-section{
 	position:relative;
-	padding:0px 0px 70px;
+	padding: 100px 0px 70px;
 }
 
 .information-section .form-column{
@@ -5781,8 +5791,8 @@
 	border-radius:4px;
 	display:inline-block;
 	font-size:var(--font-28);
-	color:var(--color-fifty);
-	background-color: var(--color-fourty);
+	color:var(--main-color);
+	background-color: var(--main-overlay-color);
 	transition:all 500ms ease;
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
@@ -5845,7 +5855,7 @@
 	text-align:center;
 	border-radius:12px;
 	padding:25px 15px 15px;
-	background-color:var(--color-thirtyfive);
+	background-color:var(--main-color);
 	
 	transition: -webkit-transform 0.4s ease;
 	transition: transform 0.4s ease;
@@ -5869,7 +5879,6 @@
 
 .team-block h5{
 	font-weight:500;
-	text-decoration:underline;
 	font-family:var(--font-family-DMSans);
 }
 
@@ -6054,7 +6063,7 @@
 
 .portfolio-block-two .lower-content{
 	position:relative;
-	padding:35px 15px 0px;
+	padding: 20px 15px 20px;
 }
 
 .portfolio-block-two h4{
@@ -8450,9 +8459,14 @@
 @media (max-width: 991px) {
 	.services-section {
 		padding-top: 50px !important;
-    padding-bottom: 0px !important;
+		padding-bottom: 0px !important;
 	}
 	.auto-container .col-lg-5 img {
 		margin-top: 20px;
 	}
+	.information-section {
+		padding-top: 50px !important;
+		padding-bottom: 0 !important;
+	}
+	
 }

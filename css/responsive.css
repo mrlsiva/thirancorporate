@@ -565,6 +565,10 @@
 		padding-right:var(--padding-zero);
 	}
 	
+	li.dropdown .careet {		
+		display: none;
+	}
+	
 }
 
 
