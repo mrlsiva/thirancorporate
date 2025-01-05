@@ -217,7 +217,7 @@
 }
 
 .subscribe-form .form-group button:hover{
-	background-color:var(--color-two);
+	background-color:var(--main-color);
 }
 
 .main-footer .footer-bottom{
