@@ -40,6 +40,10 @@
 	position:relative;
 }
 
+.main-header .logo-box .logo{
+	max-width: 420px;
+}
+
 .main-header .logo-box .logo img{
 	display:inline-block;
 	max-width:100%;
@@ -147,6 +151,7 @@
 .main-header .sticky-header .logo{
 	position:relative;
 	padding:0px 0px;
+	max-width: 300px;
 }
 
 .main-header.fixed-header .sticky-header{

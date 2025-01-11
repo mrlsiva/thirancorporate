@@ -58,7 +58,7 @@
 	-webkit-transform:scale(1);
 	-ms-transform:scale(1);
 	transform:scale(1);
-	background-position:left center;
+	background-position:center;
 	background-repeat:no-repeat;
 	-webkit-transition: all 6000ms linear;
 	-moz-transition: all 6000ms linear;
@@ -333,7 +333,7 @@ li.dropdown .careet {
 
 .info-box a{
 	position:relative;
-	font-weight:700;
+	font-weight:500;
 	color:var(--color-two);
 	font-size:var(--font-24);
 }
@@ -352,7 +352,7 @@ li.dropdown .careet {
 
 .services-section{
 	position:relative;
-	padding:100px 0px 70px;
+	padding: 50px 0px 70px;
 }
 
 .services-section .more-service{
@@ -565,6 +565,14 @@ li.dropdown .careet {
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
 	transition:all 500ms ease;
+	background: #fff;
+	  width: 68px;
+	  height: 68px;
+	  padding: 12px;
+	  border-radius: 50px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
 }
 
 .service-block-two h5{
@@ -590,6 +598,23 @@ li.dropdown .careet {
 
 .service-block-two .inner-box:hover h5 a{
 	color:var(--main-color);
+}
+
+.service-block .icon{
+	background: #fff;
+	border: 2px solid rgba(var(--color-two-rgb), 1);
+	  width: 68px;
+	  height: 68px;
+	  padding: 12px;
+	  border-radius: 50px;
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  
+}
+
+.service-block:hover .icon{	
+	border: 2px solid var(--main-color);	
 }
 
 /*** 
