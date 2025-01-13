@@ -352,7 +352,7 @@ li.dropdown .careet {
 
 .services-section{
 	position:relative;
-	padding: 50px 0px 70px;
+	padding: 70px 0px 70px;
 }
 
 .services-section .more-service{
@@ -487,7 +487,7 @@ li.dropdown .careet {
 .strategy-section{
 	position:relative;
 	padding:100px 0px 90px;
-	background-color:var(--color-two);
+	background-color:var(--main-color);
 }
 
 .strategy-section .title-column{
