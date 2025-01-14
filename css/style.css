@@ -73,8 +73,7 @@
 	transform:scale(1.15);
 }
 
-.main-slider .image-overlay{
-	background-color: rgba(0,0,0,0.5);
+.main-slider .image-overlay{	
 	position: relative;	
 }
 
@@ -8484,7 +8483,7 @@ li.dropdown .careet {
 @media (max-width: 991px) {
 	.services-section {
 		padding-top: 50px !important;
-		padding-bottom: 0px !important;
+		padding-bottom: 50px !important;
 	}
 	.auto-container .col-lg-5 img {
 		margin-top: 20px;
