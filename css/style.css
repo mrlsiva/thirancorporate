@@ -101,8 +101,9 @@
 	height:830px;	
 	display: flex;
     justify-content: start;
-    align-items: center;
+    align-items: start;
     flex-wrap: wrap;	
+	padding-top: 60px;
 }
 
 .main-slider .content-boxed .content{
