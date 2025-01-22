@@ -107,7 +107,7 @@
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
 	-o-transition:all 500ms ease;
-	margin-right:var(--margin-right-30);
+	margin-right:var(--margin-right-20);
 }
 
 .main-header .sticky-header .main-menu .navigation > li:hover > a,
@@ -189,7 +189,7 @@
 	opacity:1;
 	font-weight:600;
 	padding:45px 0px;
-	font-size:var(--font-16);
+	font-size:var(--font-14);
 	color:var(--color-two);
 	text-transform: capitalize;
 	transition:all 500ms ease;
@@ -272,10 +272,10 @@
 .main-header .main-menu .navigation > li > ul > li > a{
 	position:relative;
 	display:block;
-	padding:12px 18px;
+	padding:4px 18px;
 	line-height:24px;
 	font-weight:600;
-	font-size:var(--font-15);
+	font-size:var(--font-12);
 	text-transform:uppercase;
 	color:var(--white-color);
 	transition:all 500ms ease;
@@ -289,7 +289,7 @@
 	position:absolute;
 	content:'//';
 	left:10px;
-	top:11px;
+	top:4px;
 	opacity:0;
 	font-weight:700;
 	font-size:var(--font-12);
@@ -1066,6 +1066,7 @@
 .main-header .outer-box{
 	position: relative;
 	right:-15px;
+	display:none;
 }
 
 /* Search Box Outer */
